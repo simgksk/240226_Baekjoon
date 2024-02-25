@@ -27,7 +27,7 @@ using namespace std;
 
 #pragma region 9772. Quadrants
 
-		float x, y;
+		/*float x, y;
 
 		while (true)
 		{
@@ -50,9 +50,29 @@ using namespace std;
 				cout << "AXIS";
 				break;
 			}
-		}
+		}*/
 
 #pragma endregion
+
+#pragma region 11549. Identifying tea
+
+		int t;
+		int abcde;
+		int n = 0;
+
+		cin >> t;
+
+		for (int i = 0; i < 5; i++)
+		{
+			cin >> abcde;
+			if (abcde == t)
+				n++;
+		}
+
+		cout << n;
+
+#pragma endregion
+
 
 		
 		return 0;
