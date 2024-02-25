@@ -56,7 +56,7 @@ using namespace std;
 
 #pragma region 11549. Identifying tea
 
-		int t;
+		/*int t;
 		int abcde;
 		int n = 0;
 
@@ -69,9 +69,24 @@ using namespace std;
 				n++;
 		}
 
-		cout << n;
+		cout << n;*/
 
 #pragma endregion
+
+#pragma region 13985. Equality
+		
+		int a, b, c;
+		char s;
+
+		cin >> a >> s >> b >> s >> c;
+
+		if (a + b == c)
+			cout << "YES";
+		else
+			cout << "NO";
+
+#pragma endregion
+
 
 
 		
