@@ -75,7 +75,7 @@ using namespace std;
 
 #pragma region 13985. Equality
 		
-		int a, b, c;
+		/*int a, b, c;
 		char s;
 
 		cin >> a >> s >> b >> s >> c;
@@ -83,12 +83,33 @@ using namespace std;
 		if (a + b == c)
 			cout << "YES";
 		else
-			cout << "NO";
+			cout << "NO";*/
 
 #pragma endregion
 
+#pragma region 31428. 앨리스 트랙 매칭
 
+		int n;
+		int result = 0;
+		string c[10001];
+		string s;
 
-		
+		cin >> n;
+
+		for (int i = 1; i <= n; i++)
+			cin >> c[i];
+
+		cin >> s;
+
+		for (int i = 0; i < 10001; i++)
+		{
+			if (s == c[i])
+				result++;
+		}
+
+		cout << result;
+
+#pragma endregion
+
 		return 0;
 	}
