@@ -6,7 +6,7 @@ using namespace std;
 	{
 #pragma region 7595. Triangles
 
-		int n;
+		/*int n;
 
 		while (true)
 		{
@@ -21,9 +21,39 @@ using namespace std;
 					printf("*");
 				printf("\n");
 			}
+		}*/
+
+#pragma endregion
+
+#pragma region 9772. Quadrants
+
+		float x, y;
+
+		while (true)
+		{
+			cin >> x >> y;
+
+			if ((x < 0 && y == 0) || (x > 0 && y == 0))
+				cout << "AXIS" << endl;
+			else if ((x == 0 && y < 0) || (x == 0 && y > 0))
+				cout << "AXIS" << endl;
+			else if (x > 0 && y > 0)
+				cout << "Q1" << endl;
+			else if (x < 0 && y > 0)
+				cout << "Q2" << endl;
+			else if (x < 0 && y < 0)
+				cout << "Q3" << endl;
+			else if (x > 0 && y < 0)
+				cout << "Q4" << endl;
+			else if (x == 0 && y == 0)
+			{
+				cout << "AXIS";
+				break;
+			}
 		}
 
 #pragma endregion
+
 		
 		return 0;
 	}
