@@ -6,7 +6,7 @@ using namespace std;
 	{
 #pragma region 7595. Triangles
 
-		/*int n;
+		int n;
 
 		while (true)
 		{
@@ -21,13 +21,13 @@ using namespace std;
 					printf("*");
 				printf("\n");
 			}
-		}*/
+		}
 
 #pragma endregion
 
 #pragma region 9772. Quadrants
 
-		/*float x, y;
+		float x, y;
 
 		while (true)
 		{
@@ -50,13 +50,13 @@ using namespace std;
 				cout << "AXIS";
 				break;
 			}
-		}*/
+		}
 
 #pragma endregion
 
 #pragma region 11549. Identifying tea
 
-		/*int t;
+		int t;
 		int abcde;
 		int n = 0;
 
@@ -69,13 +69,13 @@ using namespace std;
 				n++;
 		}
 
-		cout << n;*/
+		cout << n;
 
 #pragma endregion
 
 #pragma region 13985. Equality
 		
-		/*int a, b, c;
+		int a, b, c;
 		char s;
 
 		cin >> a >> s >> b >> s >> c;
@@ -83,7 +83,7 @@ using namespace std;
 		if (a + b == c)
 			cout << "YES";
 		else
-			cout << "NO";*/
+			cout << "NO";
 
 #pragma endregion
 
